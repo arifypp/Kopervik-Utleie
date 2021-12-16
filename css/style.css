@@ -1940,3 +1940,24 @@ h2 span {
 	font-size: 18px;
 	transition: all .4s;
 }
+
+/* Custom css */
+#custom-breadcrumb {
+    display: block;
+    background: #1e1e1e;
+    text-align: center;
+    padding: 150px 0px;
+    color: #fff;
+}
+.single-image {
+    background: #fff;
+    padding: 40px 0px;
+}
+.blog-content {
+    padding: 20px 0;
+}
+
+.blog-content p {
+    margin: 0;
+    font-size: 18px;
+}
