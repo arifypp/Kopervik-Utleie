@@ -280,21 +280,21 @@
                 </div>
                 <div class="col-sm-8">
                     <div class="contact_form">
-                        <form class="form-group">
+                        <form method="post" action="mailsent.php" class="form-group">
                             <div class="col-sm-6">
-                                <input type="text" class="form-control c_name" placeholder="Ditt navn*" required="">
+                                <input type="text" name="name" class="form-control c_name" placeholder="Ditt navn*" required="">
                             </div>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control c_email" placeholder="Emne *" required="">
+                                <input type="email" name="email" class="form-control c_email" placeholder="Emne *" required="">
                             </div>
                             <div class="col-sm-12">
-                                <input type="text" class="form-control c_sub" placeholder="Telefonnummer *" required="">
+                                <input type="text" name="number" class="form-control c_sub" placeholder="Telefonnummer *" required="">
                             </div>
                             <div class="col-sm-12">
-                                <textarea class="form-control c_textarea" placeholder="Din melding"></textarea>
+                                <textarea name="message" class="form-control c_textarea" placeholder="Din melding"></textarea>
                             </div>
                             <div class="col-sm-12 text-center">
-                                <button class="btn btn-primary">Send inn</button>
+                                <button type="submit" name="submit" class="btn btn-primary">Send inn</button>
                             </div>
                         </form>
                     </div>
