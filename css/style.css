@@ -1497,6 +1497,7 @@ h2 span {
 
 .blog_img img {
 	width: 100%;
+	height: 300px;
 }
 
 .blog_content:hover .blog_img img {
